@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="./game3.js"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg1" onload="game()">
+        <audio id="player" autoplay loop ><source src="./sound/Marimba-music.mp3" type="audio/mp3"></audio>
+    <b id="Score">Score: 00</b>
+    <div class="hearts">
+        <img id="heart5" src="./image/heart.png" alt="heart">
+        <img id="heart4" src="./image/heart.png" alt="heart">
+        <img id="heart3" src="./image/heart.png" alt="heart">
+        <img id="heart2" src="./image/heart.png" alt="heart">
+        <img id="heart1"src="./image/heart.png" alt="heart">
+    </div>
+
+
+    <img class="bubble1" src="./image/bubble.png" ondrop="drop(event,'bubble1')" ondragover="allowDrop(event)">
+    <div class="centered1"><label id="bubble1">1</label></div>
+
+    <img id="ball" class="sunmarine" src="./image/sunmarine.png" draggable="true" ondragstart="drag(event)">
+
+    <img  class="bubble2" src="./image/bubble.png" ondrop="drop(event,'bubble2')" ondragover="allowDrop(event)">
+    <div class="centered2"><label id="bubble2">2</label></div>
+
+
+    <img class="bubble3" src="./image/bubble.png" ondrop="drop(event,'bubble3')" ondragover="allowDrop(event)">
+    <div class="centered3"><label id="bubble3">3</label></div>
+    <!-- <img class="bubble1" src="./image/bubble.png" id="bubble1" ondrop="drop(event,id)" ondragover="allowDrop(event)"> -->
+    <!-- <img id="ball" class="sunmarine" src ="./image/sunmarine.png" draggable="true" ondragstart="drag(event)"> -->
+    <!-- <img class="bubble2" src="./image/bubble.png" id="bubble2" ondrop="drop(event,id)" ondragover="allowDrop(event)"> -->
+    <!-- <img class="bubble3" src="./image/bubble.png" id="bubble3" ondrop="drop(event,id)" ondragover="allowDrop(event)"> -->
+    <img class="crab-wood" src="./image/crab-wood.png" alt="">
+    <div class="wood"><label id="wood">5555</label></div>
+
+</body>
+
+</html>

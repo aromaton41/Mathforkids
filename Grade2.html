@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="./game2.js"></script>
+    <title>Document</title>
+</head>
+<body class="bg1" onload="init()">
+        <audio id="player" autoplay loop ><source src="./sound/Marimba-music.mp3" type="audio/mp3"></audio>
+    <div  class="hearts">
+        <img id="heart5" src="./image/heart.png" alt="heart">
+        <img id="heart4" src="./image/heart.png" alt="heart">
+        <img id="heart3" src="./image/heart.png" alt="heart">
+        <img id="heart2" src="./image/heart.png" alt="heart">
+        <img id="heart1" src="./image/heart.png" alt="heart">
+        <img id="when" src="./image/sun.png" alt="time"> 
+        <h2 id="Score">Score :</h2>
+    </div>
+    <img id="clock" class="clock" src="./image/clock/01.png">
+    <div class="container2">
+        <a onclick="answer(this,'choice1','answer1')"><img  id="answer1" src="./image/answer.png">
+        <div class="centered41"><label id="choice1"></label></div></a>
+    </div>
+    <div class="container2">
+        <a onclick="answer(this,'choice2','answer2')"><img id="answer2" src="./image/answer.png">
+        <div class="centered42"><label id="choice2"></label></div></a>
+    </div>
+    <div class="container2">
+        <a onclick="answer(this,'choice3','answer3')"><img id="answer3" src="./image/answer.png">
+        <div class="centered43"><label id="choice3"></label></div></a>
+    </div>
+    <div class="container2">
+        <a onclick="answer(this,'choice4','answer4')"><img id="answer4" src="./image/answer.png">
+        <div class="centered44"><label id="choice4"></label></div></a>
+    </div>
+    
+</body>
+</html>

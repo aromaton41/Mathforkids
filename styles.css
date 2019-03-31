@@ -1,0 +1,471 @@
+html,body{
+  height: 100%;
+  margin: 0;
+}
+.bg{
+    background-image: url(./image/background2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+.bg1{
+    background-image: url(./image/background5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.menu {
+    transition-duration: 0.1s;
+
+}
+a.btngrade1{
+    background-image: url('./image/Button_grade1.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40% 
+}
+
+a.btngrade2{
+    background-image: url('./image/Button_grade2.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40% 
+}
+a.btngrade3{
+    background-image: url('./image/Button_grade3.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40% 
+}
+a.menua{
+    background-image: url('./image/Menu.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40% 
+}
+ .menu{
+    display: block;
+    padding: 12px;
+}
+/* .menu a:hover {
+    background-color: 	#4682B4;
+    color: white;
+} */
+a.btngrade1:hover {
+    background-image: url('./image/Button_grade1_green.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40% 
+}
+
+a.btngrade2:hover {
+    background-image: url('./image/Button_grade2_green.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40% 
+}
+a.btngrade3:hover {
+    background-image: url('./image/Button_grade3_green.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40% 
+}
+
+a.back{
+    background-image: url('./image/Button_back.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 12%;
+    
+}
+
+a.back:hover{
+    background-image: url('./image/Button_back_green.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display:inline-block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 12%;
+}
+a.playagain{
+    background-image: url('./image/Button_playagain.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 12%;
+    
+}
+a.playagain:hover{
+    background-image: url('./image/Button_playagain_green.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 12%;
+    
+}
+
+a.howtoplay{
+    background-image: url('./image/Button_howtoplay.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40%
+}
+
+a.howtoplay:hover{
+    background-image: url('./image/Button_howtoplay_green.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40%
+}
+a.gotohome{
+    background-image: url('./image/Button_gotohome.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40%
+}
+a.gotohome:hover{
+    background-image: url('./image/Button_gotohome_green.png');
+    cursor:pointer;
+    border:none;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 40%
+}
+h1 {
+    text-align: center;
+    font: italic small-caps bold 50px cursive;
+}
+h2 {
+    font: italic small-caps bold 50px cursive;
+    display: inline;
+    padding-left: 20%;
+}
+.bnt1 {
+    margin-left: 31%;
+    margin-top: 5%;
+}
+.bnt1 button {
+    width: auto;
+    font: small-caps bold 90px cursive;
+    background-color: #FFA500;
+    padding: 10px;
+    margin: 25px;
+    width: 200px;
+    height: 200px;
+}
+.bnt1 button:hover {
+    color: white;
+    background-color:	#9ACD32;
+}
+.bnt2 {
+    margin-top: 5%;
+}
+.bnt2 button {
+    width: auto;
+    font: small-caps bold 30px cursive;
+    background-color: #FFA500;
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 10%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.bnt2 button:hover {
+    color: white;
+    background-color:	#9ACD32;
+}
+.howto {
+    text-align: center;
+    font: small-caps bold 18px cursive;
+}
+.hearts img{
+    width: 42px;
+    height: 42px;
+}
+b {
+    font: small-caps bold 22px cursive;
+    margin-left: 1%;
+}
+.crab-wood{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin-top: 3.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sunmarine{
+    padding-left: 2%;
+    display: inline;
+}
+.buttonLleft {
+    margin-left: 15%;
+    width: 200px;
+    height: 100px;
+}
+.mermaid{
+    width: 200px;
+    height: 200px;
+    padding-top: 2%;
+    padding-left: 6%;
+    display: inline;
+}
+.shark{
+    width: 200px;
+    height: 200px;
+    padding-left: 50%;
+    display: inline;
+}
+.jelly{
+    width: 200px;
+    height: 200px;
+    padding-top: 5%;
+    
+}
+.answer{
+    width: 362px;
+    height: 114px;
+}
+
+.centered{
+    font: italic small-caps bold 25px cursive;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered1{
+    font: italic small-caps bold 25px cursive;
+    position: absolute;
+    top: 23%;
+    left: 65.1%;
+    transform: translate(-50%, -50%);
+  }
+  .centered2{
+    font: italic small-caps bold 25px cursive;
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+  }
+  .centered3{
+    font: italic small-caps bold 25px cursive;
+    position: absolute;
+    top: 45%;
+    left: 89.5%;
+    transform: translate(-50%, -50%);
+  }
+  .centered44{
+    font: italic small-caps bold 25px cursive;
+    position: absolute;
+    padding-bottom:6%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered41{
+    font: italic small-caps bold 25px cursive;
+    position: absolute;
+    padding-bottom:6%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered42{
+    font: italic small-caps bold 25px cursive;
+    position: absolute;
+    padding-bottom:6%;
+    top: 0%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+  }
+  .centered43{
+    font: italic small-caps bold 25px cursive;
+    position: absolute;
+    padding-bottom:6%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wood{
+    font: italic small-caps bold 25px cursive;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    padding-left: 9%; 
+    padding-right: 9%;
+    padding-top: 15%;
+    display: inline;
+  }
+  .bubble1{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: 60%;
+  }
+  .bubble2{
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+    margin-right: 40%;
+  }
+  .bubble3{
+    width: 150px;
+    height: 150px;
+    display: inline;
+  }
+  #when{
+      width: 80px;
+      height: auto;
+      margin-left: 30%;
+  }
+  .clock {
+      width: 260px;
+      height: auto;
+      margin-left: 40%;
+      display: block;
+  }
+  .container2 {
+    position: relative;
+    padding-left: 12%; 
+    padding-right: 12%;
+    display: inline;
+
+  }
